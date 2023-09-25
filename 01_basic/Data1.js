@@ -35,4 +35,18 @@ let num1, num2, num3;
 num1=num2=num3=2+2;
 let gameCounter =100;
 gameCounter++;
- console.log(gameCounter);
+//  console.log(2>"1");
+//  console.log("02">1);
+//  console.log(null>0);
+//  console.log(null==0);   // it is true because of conversion
+//  console.log(null>=0);
+
+
+ console.log(undefined==0);
+ console.log(undefined>0);    // it will give false in all conditions
+ console.log(undefined<0);
+
+ //===
+ console.log("2"===2) // it check datatype also thats why it is false
+
+
