@@ -13,4 +13,10 @@
  
   const Arr1 = [1,2,3,4,5,6,7,8,[23,56,[67]]];
   console.log(Arr1.flat(Infinity));
+  let score1=200;
+  let score2=300;
+  let score3=400;
+
+  // console.log(Array.of(score1,score2, score3));
+  // it converts the multiple number valur into array
 
