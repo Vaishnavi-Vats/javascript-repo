@@ -7,10 +7,10 @@ const mySym = Symbol("key1");
 const jsUser = {
     "firstName" : "Tanishq",
     [mySym] : "my_key",
-    name : "tanishq",
-    age : 22,
-    location : "noida",
-    email : "tani123@gmail.com",
+    name : "vaishnavi",
+    age : 21,
+    location : " Greater noida",
+    email : "vaish3663@gmail.com",
     isLoggedIn : false,
     lastLoginDays : ["Monday","Tuesday","Thusday"]
 }
@@ -20,10 +20,10 @@ const jsUser = {
 // console.log(typeof jsUser.mySym); // it show sting bcz incoorct syntax
 // console.log(typeof jsUser[mySym]);
 
-jsUser.email = "tani234@gmail.com";
+jsUser.email = "vaish3663@gmail.com";
 // console.log(jsUser);
 // Object.freeze(jsUser);   // this will freeze the chnges in values .
-jsUser.email = "tani567@gmail.com";  
+jsUser.email = "vaish567@gmail.com";  
 // console.log(jsUser);
 
 jsUser.greetings = function(){
