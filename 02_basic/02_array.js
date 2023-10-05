@@ -13,6 +13,16 @@
  
   const Arr1 = [1,2,3,4,5,6,7,8,[23,56,[67]]];
   console.log(Arr1.flat(Infinity));
+   //console.log(Arr1);
+   // it gives the flat array with dept
+   console.log(Array.isArray("Vaishanvi"));
+  
+   console.log(Array.from("Vaishnavi"));
+  //  it converts the string into Array
+   console.log(Array.from({name:"Vaishnavi"}));
+    // if it does not work it will return the empty array
+
+
   let score1=200;
   let score2=300;
   let score3=400;
