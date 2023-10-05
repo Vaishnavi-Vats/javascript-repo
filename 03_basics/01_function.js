@@ -22,10 +22,22 @@ let c =add(34,67);
 console.log(c);
 
 function userLoginMessage(username){
+    if (username===undefined){
+        console.log("this is invalid")
+    }
     return `This ${username} has logged in`
 }
-let a= userLoginMessage("Vaishnavi");
-console.log(userLoginMessage);
+
+console.log(userLoginMessage());
+// if we did not pass any string it will shown undefined
+if ( userLoginMessage())
+  console.log("please insert a valid string, this is not a valid sytax")
+else
+
+ console.log(userLoginMessage());
+
+
+
 
 
 
