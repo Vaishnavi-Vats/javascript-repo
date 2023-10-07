@@ -36,6 +36,12 @@ else
 
  console.log(userLoginMessage());
 
+ function calCartPrice(...num1){
+  return num1console.log(calCartPrice(100,200,300,400));
+ }
+
+ //... rest operator
+
 
 
 
