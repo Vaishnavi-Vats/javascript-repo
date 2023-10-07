@@ -36,13 +36,31 @@ else
 
  console.log(userLoginMessage());
 
- function calCartPrice(...num1){
-  return num1console.log(calCartPrice(100,200,300,400));
+ function calCartPrice(var1,var2,...num1){
+  return num1
+  
  }
+//  console.log(calCartPrice(100,200,300,400));
 
  //... rest operator
+ 
+ let user={
+  username: "vaishnavi",
+  price:79274026
+
+ }
+ function handleAnyObject(anyObject){
+  console.log(`the username is ${anyObject.username} and the price is ${anyObject.price}`)
+ }
+   handleAnyObject(user);
 
 
+   const array =[23,45,6346,47535,2352];
+   function myArray(array){
+    return array[0];
+
+   }
+   console.log( myArray(array));
 
 
 
