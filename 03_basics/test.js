@@ -20,3 +20,10 @@ function difference( a,b){
 }
    let result = difference(89,78)
  console.log(result);
+
+ // scope of variable
+ // local scope= that can be access locally 
+ // global scope = that can be access anywhere entire the code
+ // fuction scope = variable that can be acess entire the function 
+ // lexical scope=
+
