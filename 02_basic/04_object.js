@@ -55,3 +55,5 @@ const users = [
 // console.log(Object.values(gitUser)); 
 // console.log(Object.entries(gitUser));  // less used array in array
 // console.log(gitUser.hasOwnProperty("id"));  // property present or not.
+
+obj4={1:Vaishnavi, 2:Jassi, 3:Vaibhav,4:Tanishq,5:Naman};
