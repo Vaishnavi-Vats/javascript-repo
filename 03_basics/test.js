@@ -25,5 +25,5 @@ function difference( a,b){
  // local scope= that can be access locally 
  // global scope = that can be access anywhere entire the code
  // fuction scope = variable that can be acess entire the function 
- // lexical scope=
+ // lexical scope=A variable defined outside a funxtion can be accesibe inside another function defined agter variable declaration
 
