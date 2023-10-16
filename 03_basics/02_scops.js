@@ -5,7 +5,7 @@ let an = 300 ;     // global scope
 if(true){
     let an = 10;
     const b = 20;
-   //  console.log("Inner :" , a);   // block scope
+   //  console.log("Inner :" , an);   // block scope
 } 
 // console.log(an);    // show error
 // console.log(b);    // show error
