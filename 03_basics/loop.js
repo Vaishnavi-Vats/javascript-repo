@@ -7,3 +7,9 @@
 // do-while loop
 // for-in loop
 // for-of loop
+
+
+// for(initialization; CSSConditionRule; updation/ flow)
+// {
+//    // do something
+// }
