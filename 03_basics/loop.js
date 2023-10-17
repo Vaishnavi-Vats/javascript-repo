@@ -1,9 +1,9 @@
-let sum=0;
-for(let i=0;i<5;i++){
-   sum=sum+i;
-}
-console.log(sum);
+// LOOP
 
-for (let i=0; i<navigator;i++){
-   
-}
+// used to iterate a piece of code and used for the repeation of same task
+
+// for loop
+// while loop
+// do-while loop
+// for-in loop
+// for-of loop
