@@ -29,4 +29,5 @@ function difference( a,b){
  let a=10;
  let b=20;
  sum (a+b);
+ // let a, let b
 
