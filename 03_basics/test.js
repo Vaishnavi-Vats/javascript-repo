@@ -27,8 +27,4 @@ function difference( a,b){
  // global scope = that can be access anywhere entire the code
  // fuction scope = variable that can be acess entire the function 
  // lexical scope=A variable defined outside a funxtion can be accesibe inside another function defined agter variable declaration
-//  let a=10;
-//  let b=20;
-//  sum (a+b);
- // let a, let b
 
