@@ -35,3 +35,7 @@ const n1 = myArr.slice(1,3);
 const n2 = myArr.splice(1,3);
 console.log("c",n2);
 console.log(myArr);         // it holds the range value also and the value of orignal array will also be changed
+
+
+const Array1=[34,56,678,788,98978,78];
+Array1.push(897);
